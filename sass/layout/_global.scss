@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+@for $i from 1 through 100{
+    .class-#{$i}{
+            display: inline-block;
+            font-size: 10px + $i;
+    }
+}
