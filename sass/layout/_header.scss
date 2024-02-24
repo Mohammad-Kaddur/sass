@@ -1,5 +1,27 @@
-@for $i from 1 through 30 {
-    .header-#{$i} {
-        font-size: 10px + $i;
+// @for $i from 1 through 30 {
+//     .header-#{$i} {
+//         font-size: 10px + $i;
+//     }
+// }
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            line-height: 50px;
+            margin: auto 10px;
+            cursor: pointer;
+        }
     }
 }
